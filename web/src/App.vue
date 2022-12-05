@@ -1,20 +1,20 @@
 <template>
-  <MainHeader/>
-  <MainBody/>
-  <MainFooter/>
+  <mainHeader/>
+  <mainBody/>
+  <mainFooter/>
 </template>
 
 <script>
-import MainHeader from "@/components/MainHeader";
-import MainBody from "@/components/MainFooter";
-import MainFooter from "@/components/MainBody";
+import mainHeader from "@/components/mainHeader";
+import mainBody from "@/components/mainFooter";
+import mainFooter from "@/components/mainBody";
 
 export default {
   name: 'App',
   components: {
-    MainBody,
-    MainFooter,
-    MainHeader
+    mainBody,
+    mainFooter,
+    mainHeader
   }
 }
 </script>
